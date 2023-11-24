@@ -1,0 +1,32 @@
+.searchbox{
+    text-align: center;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.searchbox  .inputfield:focus{
+    background-color: #212529;
+}
+.inputfield{
+    border-radius: 5px;
+}
+
+.inputfield{
+    width: 500px;
+    height: 36px;
+    color: white;
+}
+.weatherdetails  {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: #fff;
+    background-color: rgba(0,0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+    background-size: auto;
+    margin: 90px auto;
+    width: 50%;
+    border-radius: 7px;
+
+}
